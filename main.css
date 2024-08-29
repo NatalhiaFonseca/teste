@@ -1,0 +1,74 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ade631;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    color: black;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 100px auto; /* Centraliza a div na página */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+}
+
+.hero h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    
+}
+
+.button {
+    display: flex;
+    flex-direction: column; /* Organiza os botões em coluna */
+    align-items: center; /* Centraliza os botões horizontalmente */
+    gap: 20px; /* Espaço entre os botões */
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    max-width: 300px; /* Define uma largura máxima para os botões */
+}
+
+button.email {
+    background-color: #ade631;
+    color: black;
+    width: 100%;
+    border-radius: 50px;
+    border:  2px solid black;
+
+}
+
+button.email:hover {
+    background-color: #88be1e;
+    
+}
+
+button.cadastro {
+    background-color: #ade631;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+}
+
+button.cadastro:hover {
+    background-color: #88be1e;
+}
